@@ -20,7 +20,7 @@ def verificar_dns(site):
 def main():
 
     while True:
-        site = input('\033[34m'"Digite o site (ou 'sair' p>
+        site = input('\033[34m'"Digite o site (ou 'sair' para sair)
         if site.lower() == 'sair':
             break
         resultado = verificar_dns(site)
